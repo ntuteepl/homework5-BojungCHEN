@@ -17,7 +17,7 @@ int main() {
     if(DF>180)
         DF-=180;
     }
-    printf("%.3f %.3f %.3f",Dh,Dm,DF);
+    printf("%.3f",DF);
 
     return 0;
 }
