@@ -11,11 +11,11 @@ int main() {
     if(Dm>=Dh){
     DF=Dm-Dh;
     if(DF>180)
-        DF-=180;
+        DF=360-DF;
     }else{
     DF=Dh-Dm;
     if(DF>180)
-        DF-=180;
+        DF=360-DF;
     }
     printf("%.3f ",DF);
 
